@@ -16,17 +16,17 @@ export default function Education() {
 					Education
 				</motion.h2>
 
-				<div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+				<div className="">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4 }}
                         whileHover={{ scale: 1.05 }}
-                        className="bg-white/5 rounded-xl p-6 text-left hover:bg-white/10 transition-colors"
+                        className="bg-white/5 rounded-xl p-6 text-center hover:bg-white/10 transition-colors"
                     >
                         <h2 className="underline text-lg font-semibold">Bachelor of Science in Computer Science</h2>
-                        <p>December 2019</p>
+                        <p className=''>December 2019</p>
                         <p>College of Staten Island, New York, NY</p>
                     </motion.div>
 				</div>

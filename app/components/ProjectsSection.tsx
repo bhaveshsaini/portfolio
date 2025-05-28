@@ -23,6 +23,14 @@ const projects = [
 	},
 	{
 		id: 3,
+		title: 'Virtual Assistant',
+		description: 'This is a virtual assistant powered by a local LLM. It runs entirely offline and supports voice input/output, weather updates, and smart thermostat control. Key technologies include speech_recognition for capturing voice commands, pyttsx3 for text-to-speech, and requests for API interactions. The assistant is modular and extensible, designed to automate tasks and respond to natural language queries efficiently without relying on cloud services.',
+		image: '/code.jpg',
+		link: false,
+		href: ''
+	},
+	{
+		id: 4,
 		title: 'Instagram Clone',
 		description: 'Clone of Instagram built in NodeJS, Express and React.',
 		image: '/code.jpg',
@@ -30,7 +38,7 @@ const projects = [
 		href: 'https://github.com/bhaveshsaini/instagram_clone'
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Backup Creater',
 		description: 'Backup any files or folders on a system (for example Raspberry pi).',
 		image: '/code.jpg',
@@ -49,7 +57,7 @@ export default function ProjectsSection() {
 				transition={{ duration: 0.6 }}
 				className="text-3xl md:text-4xl font-bold mb-8 md:mb-12 text-center"
 			>
-				Featured Projects
+				Projects
 			</motion.h2>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-8">

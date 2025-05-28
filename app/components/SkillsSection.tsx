@@ -11,11 +11,11 @@ const skills = [
 		title:'Containers',
 		desc:'Docker, Kubernetes'
 	},
-		{
+	{
 		title:'Scripting',
 		desc:'Bash, Python, JavaScript '
 	},
-		{
+	{
 		title:'Frameworks',
 		desc:'React, Django, Node JS, Express'
 	},
@@ -54,6 +54,7 @@ export default function SkillsSection() {
 				<div className="grid grid-cols-2 md:grid-cols-4 gap-8">
 					{skills.map((skill, index) => (
 						<motion.div
+							key={index}
 							initial={{ opacity: 0, scale: 0.8 }}
 							whileInView={{ opacity: 1, scale: 1 }}
 							viewport={{ once: true }}
