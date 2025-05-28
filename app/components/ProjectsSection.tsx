@@ -39,7 +39,7 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: 'Backup Creater',
+		title: 'Backup Creator',
 		description: 'Backup any files or folders on a system (for example Raspberry pi).',
 		image: '/code.jpg',
 		link: true,
