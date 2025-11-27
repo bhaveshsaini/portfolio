@@ -23,14 +23,6 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: 'Virtual Assistant',
-		description: 'This is a virtual assistant powered by a local LLM. It runs entirely offline and supports voice input/output, weather updates, and smart thermostat control. Key technologies include speech_recognition for capturing voice commands, pyttsx3 for text-to-speech, and requests for API interactions. The assistant is modular and extensible, designed to automate tasks and respond to natural language queries efficiently without relying on cloud services.',
-		image: '/code.jpg',
-		link: false,
-		href: ''
-	},
-	{
-		id: 4,
 		title: 'Instagram Clone',
 		description: 'Clone of Instagram built in NodeJS, Express and React.',
 		image: '/code.jpg',
@@ -38,12 +30,20 @@ const projects = [
 		href: 'https://github.com/bhaveshsaini/instagram_clone'
 	},
 	{
-		id: 5,
+		id: 4,
 		title: 'Backup Creator',
 		description: 'Backup any files or folders on a system (for example Raspberry pi).',
 		image: '/code.jpg',
 		link: true,
 		href: 'https://github.com/bhaveshsaini/backup-script'
+	},
+	{
+		id: 5,
+		title: 'AI Virtual Assistant',
+		description: 'A local LLM–powered assistant using Python with features like real-time person detection via cameras, daily email and agenda summaries, contextual suggestions, and a full reminder system.  Integrated Telegram for chat/commands and connected smart-home devices (e.g., Nest) for automation. The assistant centralizes tasks, alerts, and home control in one system, improving daily workflow and reducing manual effort.',
+		image: '/code.jpg',
+		link: false,
+		href: ''
 	},
 ];
 
